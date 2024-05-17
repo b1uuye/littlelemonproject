@@ -23,7 +23,7 @@ const Reviews = () => {
                 <p>Really nice interior inside the restaurant. Quite good food too.</p>
             </div>
             <div className='reviews'>
-                <h2>Jacob</h2>
+                <h2>Jenny</h2>
                 <img src={woman2} alt="woman2" />
                 <h3>9/10</h3>
                 <p>Amazing restaurant, from the food to the customer service.</p>
@@ -32,7 +32,7 @@ const Reviews = () => {
                 <h2>Pep</h2>
                 <img src={man2} alt="man2" />
                 <h3>8.3/10</h3>
-                <p>Very good eat. Decent dining arrangements too.</p>
+                <p>Very good food. Decent dining arrangements too.</p>
             </div>
         </div>
     </div>

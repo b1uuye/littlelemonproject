@@ -1,0 +1,50 @@
+.about_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    height: 90vh;
+}
+
+.about_left{
+    padding-top: 50px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.about_left h1{
+    color: #F4CE14;
+    font-family: "Markazi Text", serif;
+    font-size: 115px;
+}
+
+.about_left h2{
+    color: #495e57;
+    font-family: "Markazi Text", serif;
+    font-size: 64px;
+}
+
+.about_left p{
+    font-family: "Karla", sans-serif;
+    font-size: 26px;
+    color: #333333;
+    width: 700px;
+}
+
+.about_right .img1{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    right: 450px;
+    margin-top: 150px;
+}
+
+.about_right .img2{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    right: 250px;
+    margin-top: 20px;
+}
+

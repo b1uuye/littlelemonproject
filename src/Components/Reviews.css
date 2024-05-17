@@ -1,7 +1,7 @@
 .reviews_container{
     margin-top: -1150px;
     background-color: #495e57;
-    height: 90vh;
+    height: 70vh;
 }
 
 .reviews_container h1{
@@ -13,29 +13,59 @@
     justify-content: center;
     align-items: center;
     padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 .reviews_grid{
     display: grid;
-    grid-template-columns: repeat(4,300px);
+    grid-template-columns: repeat(4,350px);
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-content: center;
     gap: 25px;
 }
 
 .reviews_grid .reviews{
+    padding: 20px;
     background-color: #f4ce14;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    border-radius: 20px;
+}
+
+.reviews_grid .reviews:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease all;
 }
 
 .reviews_grid .reviews h2{
     font-family: "Karla";
     font-size: 32px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding-bottom: 40px;
+    padding-left: 30PX;
+}
+
+.reviews_grid .reviews h3{
+    font-family: "Karla";
+    font-size: 28px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-left: 30px;
+    padding-top: 2px;
+}
+
+.reviews_grid .reviews p{
+    font-family: "Karla";
+    font-size: 20px;
+    grid-column-start: 2;
+    padding-top: 15px;
 }
 
 .reviews img{
-    width: 300px;
+    width: 150px;
+    height: 150px;
     border-radius: 30px;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
