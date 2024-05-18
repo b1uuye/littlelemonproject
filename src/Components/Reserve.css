@@ -1,0 +1,36 @@
+.reserve_container h1{
+    color: #495e57;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.reserve_box{
+    background-color: #495e57;
+    display: flex;
+}
+
+.reserve_box_left{
+    padding-top: 50px;
+    padding-left: 200px;
+    position: relative;
+}
+
+.reserve_box_left form{
+    width: 700px;
+}
+
+.reserve_box_right{
+    padding-top: 50px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.reserve_box_right form{
+    width: 700px;
+}
+
+.reserve_box button{
+    position: absolute;
+}

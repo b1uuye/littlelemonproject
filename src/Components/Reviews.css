@@ -37,6 +37,7 @@
 .reviews_grid .reviews:hover{
     transform: scale(1.1);
     transition: 0.3s ease all;
+    cursor: pointer;
 }
 
 .reviews_grid .reviews h2{

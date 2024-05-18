@@ -50,3 +50,12 @@
     color: #EE9972;
     scale: 1.1;
 }
+
+.nav_menu .nav_menu_link{
+    text-decoration: none;
+    color: #495E57;
+}
+
+.nav_menu .nav_menu_link:hover{
+    color: #EE9972;
+}

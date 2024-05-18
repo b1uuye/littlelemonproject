@@ -7,7 +7,7 @@ import delivery from '../images/delivery.png';
 
 const Specials = () => {
   return (
-    <div className="specials_container">
+    <div className="specials_container" id='specials'>
         <div className="specials_title">
             <h1>This Week's Specials</h1>
             <button>Online Menu</button>

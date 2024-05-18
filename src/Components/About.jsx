@@ -5,7 +5,7 @@ import kebabs from '../images/kebabs.jpg';
 
 const About = () => {
   return (
-    <div className='about_container'>
+    <div className='about_container' id='about'>
     <div className='about_left'>
       <h1>Little Lemon</h1>
       <h2>Chicago</h2>

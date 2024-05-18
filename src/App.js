@@ -5,6 +5,7 @@ import Specials from './Components/Specials';
 import Reviews from './Components/Reviews';
 import About from './Components/About';
 import Footer from './Components/Footer';
+import Reserve from './Components/Reserve';
 
 function App() {
   return (

@@ -4,7 +4,7 @@ import hero_img from '../images/breadplattersmall.jpg';
 
 const Hero = () => {
   return (
-   <div className='hero_container'>
+   <div className='hero_container' id='hero'>
     <div className='hero_left'>
       <h1>Little Lemon</h1>
       <h2>Chicago</h2>

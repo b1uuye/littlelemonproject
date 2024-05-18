@@ -39,6 +39,7 @@
     margin-top: -60px;
     transform: scale(1.1);
     transition: 0.3s ease all;
+    cursor: pointer;
 }
 
 .specials_grid{
@@ -58,6 +59,7 @@
 .specials:hover{
     transform: scale(1.1);
     transition: 0.3s ease all;
+    cursor: pointer;
 }
 
 .specials img{

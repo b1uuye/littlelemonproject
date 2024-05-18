@@ -7,7 +7,7 @@ import woman2 from '../images/woman2.png';
 
 const Reviews = () => {
   return (
-    <div className="reviews_container">
+    <div className="reviews_container" id='reviews'>
         <h1>Reviews/Testemonials</h1>
         <div className="reviews_grid">
             <div className='reviews'>
