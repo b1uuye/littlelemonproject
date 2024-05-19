@@ -11,23 +11,23 @@ const Reserve = () => {
           <div className='reserve_box'>
             <div className="reserve_box_left">
             <form>
-                <label>Name: <input type="text" name='name' id='name' /></label>
-                <label>Email: <input type="email" name='email' id='email' /></label>
-                <label>Date: <input type="date" name='rdate' id='rdate' /></label>
-                <label>Time: <input type="time" name='appt' id='time' /></label>
-                <label>Special Requests: <textarea name="requests" id="requests" cols="30" rows="10">Any requests, let us know...</textarea></label>
+                <label>Name: * <br /><input type="text" name='name' id='name' required/></label>
+                <label>Email: * <br /> <input type="email" name='email' id='email' required/></label>
+                <label>Date: * <br /> <input type="date" name='rdate' id='rdate' required/></label>
+                <label>Time: * <br /> <input type="time" name='appt' id='time' className='times'required /></label>
+                <label>Special Requests: <br /> <textarea name="requests" id="requests" cols="30" rows="10" placeholder='Any requests, let us know...'></textarea></label>
             </form>
             </div>
             <div className="reserve_box_right">
                 <form>
-                    <label>Name on card* <input type="text" name='cardname' id='cardname'/></label>
-                    <label>Card Number* <input type='tel' name='cardno' id='cardno' maxlength='16'/></label>
-                    <label>CVC* <input type='tel' name='cvc' id='cvc' maxlength='4'/></label>
-                    <input type="checkbox" name="checks" id="checks" />
-                    <label for='checks'> Save card for next reservation</label>
+                    <label>Name on card * <br /> <input type="text" name='cardname' id='cardname' required/></label>
+                    <label>Card Number * <br /> <input type='tel' name='cardno' id='cardno' maxlength='16' required/></label>
+                    <label>CVC * <br /> <input type='tel' name='cvc' id='cvc' maxlength='4' required/></label>
+                     <label for='checks' className='checklabel'><input type="checkbox" name="checks" id="checks" className='checkb'/></label>
+                     <h3>Save card for next reservation</h3>
                 </form>
+                <button className='confbutton' type='button'>Confirm Reservation</button>
             </div>
-            <button className='confbutton'>Confirm Reservation</button>
           </div>
       </div>
       <Footer/>
