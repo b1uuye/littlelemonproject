@@ -20,11 +20,13 @@ const Reserve = () => {
             </div>
             <div className="reserve_box_right">
                 <form>
+                    <h2 className='booking-mob'>£5 booking fee*</h2>
                     <label>Name on card * <br /> <input type="text" name='cardname' id='cardname' required/></label>
                     <label>Card Number * <br /> <input type='tel' name='cardno' id='cardno' maxlength='16' required/></label>
                     <label>CVC * <br /> <input type='tel' name='cvc' id='cvc' maxlength='4' required/></label>
                      <label for='checks' className='checklabel'><input type="checkbox" name="checks" id="checks" className='checkb'/></label>
                      <h3>Save card for next reservation</h3>
+                     <h2 className='booking-norm'>£5 booking fee*</h2>
                 </form>
                 <button className='confbutton' type='button'>Confirm Reservation</button>
             </div>

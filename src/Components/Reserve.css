@@ -84,8 +84,20 @@
     border: 5px solid #fbdabb;
     border-radius: 10px ;
     padding-left: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     font-family: "Karla";
+}
+
+.reserve_box_right form .booking-norm{
+    font-family: "Karla";
+    font-size: 32px;
+    color: red;
+    padding: 20px 0px 0px 0px;
+}
+
+.reserve_box_right form .booking-mob{
+    color: red;
+    display: none;
 }
 
 .reserve_box_right form input{
@@ -109,6 +121,7 @@
     font-size: 25px;
     font-weight: bold;
 }
+
 
 .reserve_box_right form #checks{
     accent-color: #ee9972;
@@ -155,6 +168,10 @@
 
 @media only screen and (max-width: 600px){
     
+    .reserve_container{
+        overflow-x: hidden;
+    }
+
     .reserve_container h1{
         font-size: 40px;
     }
@@ -191,12 +208,29 @@
 
     .reserve_box_right form{
         width: 350px;
-        height: 400px;
+        height: 450px;
+    }
+
+    .reserve_box_right form .booking-norm{
+        font-family: "Karla";
+        font-size: 20px;
+        display: none;
+    }
+
+    .reserve_box_right form .booking-mob{
+        font-family: "Karla";
+        font-size: 25px;
+        display: flex;
+        padding-top: 20px;
     }
 
     .reserve_box_right form label{
         margin-top: 5px;
         font-size: 20px;
+    }
+
+    .reserve_box_right form label:first-of-type{
+        margin-top: 10px;
     }
 
     .reserve_box_right form h3{
