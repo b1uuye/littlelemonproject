@@ -152,3 +152,63 @@
     scale: 1.1;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px){
+    
+    .reserve_container h1{
+        font-size: 40px;
+    }
+
+    .reserve_box{
+        display: block;
+        justify-content: space-between;
+    }
+
+    .reserve_box_left {
+        padding-left: 40px;
+    }
+
+    .reserve_box_left form label{
+        font-size: 20px;
+    }
+
+    .reserve_box_left form input{
+        width: 45%;
+    }
+
+    .reserve_box_left form textarea{
+        width: 45%;
+    }
+
+    .reserve_box_left form .times{
+        width: 45%;
+    }
+    
+    .reserve_box_right{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .reserve_box_right form{
+        width: 350px;
+        height: 400px;
+    }
+
+    .reserve_box_right form label{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .reserve_box_right form h3{
+        display: none;
+    }
+
+    .reserve_box .confbutton{
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 25px;
+    }
+
+}

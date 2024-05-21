@@ -48,3 +48,31 @@
     margin-top: 20px;
 }
 
+@media only screen and (max-width: 600px){
+
+    .about_container{
+        height: 900px;
+    }
+
+    .about_right .img1{
+        display: none;
+    }
+
+    .about_right .img2{
+        display: none;
+    }
+
+    .about_left{
+        width: 500px;
+        padding-left: 10px;
+    }
+
+    .about_left p{
+        background-color: #495e57;
+        border: 1px solid #495e57;
+        border-radius: 10px;
+        color: #ffffff;
+        padding: 20px;
+        width: 320px;
+    }
+}

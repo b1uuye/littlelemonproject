@@ -70,3 +70,28 @@
     grid-row-start: 2;
     grid-row-end: 3;
 }
+
+@media only screen and (max-width: 600px){
+
+    .reviews_container{
+        padding-bottom: 1200px;
+    }
+
+    .reviews_container h1{
+        font-size: 32px;
+        padding-bottom: 30px;
+    }
+
+    .reviews_grid{
+        display: inline-block;
+    }
+
+    .reviews_grid .reviews{
+        transform: scale(0.8);
+    }
+
+    .reviews_grid .reviews:hover{
+        transform: scale(0.85);
+    }
+
+}
