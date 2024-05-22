@@ -19,3 +19,8 @@ This project was developed using the following technologies
   - HTML: Used for structure and SEO optimization of the webpage
   - CSS: Used for styling the webpage and giving clean UI
   - React: Created main components and utilised hooks for managing states and handling user interactions
+
+  ## Figma files
+    - Figma wireframe - https://www.figma.com/design/RvE66QZp6k76k4p3XMmnw8/LL-wireframe?m=dev&node-id=0%3A1&t=riJ7DQ4tEriRKimH-1 
+  
+    - Figma Prototype - https://www.figma.com/design/BCz5mAkqDexYVySRzt5Orn/LL-Prototype?m=dev&t=riJ7DQ4tEriRKimH-1
