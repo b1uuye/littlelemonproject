@@ -11,6 +11,7 @@ This is the Little Lemon Restuarant Online page with a reservation system. This 
   - Gain confirmation after a reservation has been made
   - Clean UI design
   - Responsive design for optimal viewing on various devices
+  - Logo Linking back to the mainhome page
 
 ## Technologies Used
 
