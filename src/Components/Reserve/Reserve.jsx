@@ -51,10 +51,12 @@ const Reserve = () => {
                   <option value="21:00">21:00</option>
                   <option value="22:00">22:00</option></select></label> 
                 <label htmlFor="guests">Number of guests <br /> <input type="number" placeholder='1' min={1} max={10} id="guests" /> </label>
-                <label htmlFor="requests">Special Requests: <br /> <select name="ocassions" id="ocassion">
+                <label htmlFor="requests">Occasion: <br /> <select name="ocassions" id="ocassion">
+                  <option value="0">Select an occassion</option>
                   <option value="1">Birthday</option>
                   <option value="2">Anniversary</option>
-                  <option value="3">Date</option></select></label>
+                  <option value="3">Date</option>
+                  <option value="4">Party</option></select></label>
                   <button className='confbutton' type='submit'><Link to="/booked" className='reserve_menu_link'>Confirm Reservation</Link></button>
             </form>
             </div>
