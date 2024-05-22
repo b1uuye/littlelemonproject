@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Little Lemon restaurant webpage with reservations
 
 ## Description
 
@@ -16,6 +16,6 @@ This is the Little Lemon Restuarant Online page with a reservation system. This 
 
 This project was developed using the following technologies
 
-  - HTML: Used for structure and SEO Optimization of the webpage
+  - HTML: Used for structure and SEO optimization of the webpage
   - CSS: Used for styling the webpage and giving clean UI
   - React: Created main components and utilised hooks for managing states and handling user interactions
