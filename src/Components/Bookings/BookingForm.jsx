@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 export default function BookingForm({availableTimes, dispatch, submitForm}) {
     console.log(dispatch)
     const [formData, setFormData] = useState({
@@ -85,3 +85,4 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
       </main>
     )
   }
+  
