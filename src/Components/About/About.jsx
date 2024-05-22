@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
-import fishpot from '../images/fishpot.jpg';
-import kebabs from '../images/kebabs.jpg';
+import fishpot from '../../images/fishpot.jpg';
+import kebabs from '../../images/kebabs.jpg';
 
 const About = () => {
   return (

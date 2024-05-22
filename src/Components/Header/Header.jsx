@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import Logo from '../images/logosmall.jpg';
+import Logo from '../../images/logosmall.jpg';
 import './Header.css';
 import { Link as LinkScroll } from 'react-scroll';
 import { Link } from 'react-router-dom';
-import burger from '../images/more.png';
+import burger from '../../images/more.png';
+import Stilltomake from '../StillToMake/Stilltomake';
 
 
 const Header = () => {
@@ -27,8 +28,8 @@ const Header = () => {
                 <LinkScroll to='about' span={1} smooth={true} duration={500} style={{cursor: 'pointer'}}><li>About</li></LinkScroll>
                 <LinkScroll to='specials' span={1} smooth={true} duration={500} style={{cursor: 'pointer'}}><li>Menu</li></LinkScroll>
                 <li><Link to="/reserve" className='nav_menu_link'>Reserve</Link></li>
-                <li>Order</li>
-                <li>Login</li>
+                <li><Link to="/under-construction" className='nav_menu_link'>Order</Link></li>
+                <li><Link to="/under-construction" className='nav_menu_link'>Login</Link></li>
             </ul>
         </div>
     </div>

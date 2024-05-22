@@ -1,0 +1,71 @@
+.booked_container{
+    background-color: #495e57;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.booked_box{
+    display: flex;
+    background-color: #EE9972;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 60%;
+    border: 1px solid #EE9972;
+    border-radius: 25px;
+    padding: 0px 10px;
+}
+
+.booked_container .tick{
+    padding-bottom: 40px;
+    margin-top: -100px;
+}
+
+.booked_container h1{
+    font-size: 64px;
+    font-family: "Karla";
+}
+
+.booked_container h3{
+    font-size: 40px;
+    font-family: "Karla";
+}
+
+.booked_container p{
+    color: #495e57;
+    font-size: 30px;
+    font-family: "Karla";
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px){
+
+    .booked_container .tick{
+        padding-bottom: 40px;
+        margin-top: 0px;
+    }
+
+    .booked_container h1{
+        font-size: 30px;
+        text-align: center;
+        font-family: "Karla";
+    }
+
+    .booked_container h3{
+        font-size: 20px;
+        font-family: "Karla";
+        text-align: center;
+    }
+
+    .booked_container p{
+        text-align: center;
+        font-size: 18px;
+    }
+
+}

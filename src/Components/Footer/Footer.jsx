@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../images/greenlogo.png';
+import logo from '../../images/greenlogo.png';
 import { Link} from 'react-scroll'
 
 

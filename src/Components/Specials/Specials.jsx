@@ -1,9 +1,9 @@
 import React from 'react';
 import './Specials.css';
-import bruchetta from '../images/brushettasmall.jpg';
-import greeksalad from '../images/smallgreek.jpg';
-import pasta from '../images/pasta.jpg';
-import delivery from '../images/delivery.png';
+import bruchetta from '../../images/brushettasmall.jpg';
+import greeksalad from '../../images/smallgreek.jpg';
+import pasta from '../../images/pasta.jpg';
+import delivery from '../../images/delivery.png';
 
 const Specials = () => {
   return (

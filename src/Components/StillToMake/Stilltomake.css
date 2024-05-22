@@ -1,0 +1,30 @@
+.still-to-make{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .still-to-make .digimg{
+    color: #495e57;
+  }
+
+  .still-to-make h1{
+    color: #495e57;
+    font-size: 64px;
+    font-family: "Karla";
+  }
+
+  @media only screen and (max-width: 600px){
+
+    .still-to-make .digimg{
+        font-size: 80px;
+    }
+
+    .still-to-make h1{
+        font-size: 40px;
+        padding-left: 80px;
+    }
+  }

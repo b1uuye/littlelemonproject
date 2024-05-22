@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Reserve from './Components/Reserve';
+import Reserve from './Components/Reserve/Reserve';
+import Booked from './Components/Booked/Booked';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider, Route, Router } from 'react-router-dom';
+import Stilltomake from './Components/StillToMake/Stilltomake';
 
 
 
@@ -16,6 +18,14 @@ const router =createBrowserRouter([
   {
     path: "reserve",
     element: <Reserve/>
+  },
+  {
+    path: "booked",
+    element: <Booked/>
+  },
+  {
+    path: 'under-construction',
+    element: <Stilltomake/>
   }
 ])
 
