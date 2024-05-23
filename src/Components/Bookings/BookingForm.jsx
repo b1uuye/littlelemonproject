@@ -85,4 +85,3 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
       </main>
     )
   }
-  
