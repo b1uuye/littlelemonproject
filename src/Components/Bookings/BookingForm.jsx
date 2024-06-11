@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 export default function BookingForm({availableTimes, dispatch, submitForm}) {
     console.log(dispatch)
-    const [formData, setFormData] = useState({
+    const [formData, setFormData] = useState({ //setting state for reservation inputs
         firstName: "",
         lastName: "",
         contactNumber: "",
@@ -14,7 +14,7 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
 
     const handleFormChange = (event) => {
       const { name, value } = event.target
-      setFormData((prevFormData) => ({
+      setFormData((prevFormData) => ({ //updating each field inside the state above with inputted reservation data
         ...prevFormData,
         [name]: value
       }))

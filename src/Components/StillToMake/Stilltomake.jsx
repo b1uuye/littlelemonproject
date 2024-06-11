@@ -5,7 +5,7 @@ import './Stilltomake.css'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
-const Stilltomake = () => {
+const Stilltomake = () => { //page that tells user that the selected page is being worked on
   return (
     <>
     <Header/>

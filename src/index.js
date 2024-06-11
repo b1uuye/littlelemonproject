@@ -10,7 +10,8 @@ import Stilltomake from './Components/StillToMake/Stilltomake';
 
 
 
-const router =createBrowserRouter([
+const router =createBrowserRouter([ //linking all separate pages of the application together.
+//Below are connections to the reservation page, confirmation page and under construction page.
   {
     path: "/",
     element: <App/>,

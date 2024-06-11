@@ -4,14 +4,15 @@ import logo from '../../images/greenlogo.png';
 import { Link} from 'react-scroll'
 
 
-const Footer = () => {
+const Footer = () => { /*footer that is at the bottom of every page. Includes links to relevent parts of the page 
+and other information and links to other pages*/
   return (
     <div className="footer_container">
     <div className="footer_left">
         <Link
         to='header'
         span={1}
-        smooth={true}
+        smooth={true} //used to create smooth scroll effect throughout the page from footer clicks
         duration={500}
         style={{cursor: 'pointer'}}>
         <img src={logo} alt="greenlogo" />
@@ -33,7 +34,7 @@ const Footer = () => {
         </ul>
         <ul>
             <h3>Social Media</h3>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li> {/*links to valid page*/}
             <li><a href="https://x.com/home">Twitter</a></li>
             <li><a href="https://github.com/b1uuye">Github</a></li>
         </ul>

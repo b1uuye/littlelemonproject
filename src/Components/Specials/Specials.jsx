@@ -5,7 +5,7 @@ import greeksalad from '../../images/smallgreek.jpg';
 import pasta from '../../images/pasta.jpg';
 import delivery from '../../images/delivery.png';
 
-const Specials = () => {
+const Specials = () => {// showcases some of the specials dishes and also has a menu button to relocate to the menu page
   return (
     <div className="specials_container" id='specials'>
         <div className="specials_title">

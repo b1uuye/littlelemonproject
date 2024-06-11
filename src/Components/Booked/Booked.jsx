@@ -8,11 +8,11 @@ import Footer from '../Footer/Footer';
 
 
 
-const Booked = () => {
+const Booked = () => { //confirmation page once a reservation has been successfully booked
   return (
     <>
     <Header/>
-    <div className='booked_container'>
+    <div className='booked_container'> 
         <div className='booked_box'>
         <FontAwesomeIcon icon={faCircleCheck} className='tick' size="10x" />
         <h1>Your reservation has been confirmed!</h1>

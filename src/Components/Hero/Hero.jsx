@@ -3,7 +3,7 @@ import './Hero.css';
 import hero_img from '../../images/breadplattersmall.jpg';
 import { Link } from 'react-router-dom';
 
-const Hero = () => {
+const Hero = () => { //main page that people are greeted with once they load the page. This sits just below the header
   return (
    <div className='hero_container' id='hero'>
     <div className='hero_left'>

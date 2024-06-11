@@ -3,7 +3,7 @@ import './About.css';
 import fishpot from '../../images/fishpot.jpg';
 import kebabs from '../../images/kebabs.jpg';
 
-const About = () => {
+const About = () => { //about section near the bottom of the page
   return (
     <div className='about_container' id='about'>
     <div className='about_left'>

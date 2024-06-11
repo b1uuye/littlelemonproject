@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom';
 
-const Reserve = () => {
+const Reserve = () => { //reserve page
   const [name, setName] = useState('');
   const [availableTimes,setAvailableTimes] = useState('');
   const [date,setDate] = useState('');
@@ -12,7 +12,7 @@ const Reserve = () => {
   const [errors, setErrors] = useState({});
 
   const [values, setValues] = useState({
-    name: '',
+    name: '', //setting states for all reservation inputs
     email: '',
     date: '',
     time: '',
@@ -23,14 +23,14 @@ const Reserve = () => {
   const handleInput = (e) => {
     const { name, value } = e.target;
     setValues({
-      ...values, [name]: value
+      ...values, [name]: value //updating inputs after they have been entered successfully
     });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault(); // Prevent form submission
     const validationErrors = {};
-    if (!values.name.trim()) {
+    if (!values.name.trim()) { //validation of each input type below, to make sure that it is the correct input type
       validationErrors.name = "Name is Required";
     }
     if (!values.email.trim()) {
@@ -76,7 +76,7 @@ const Reserve = () => {
                 <select name="time" id='time' value={values.time} onChange={handleInput}>
                   <option value="12:00">12:00</option>
                   <option value="13:00">13:00</option>
-                  <option value="14:00">14:00</option>
+                  <option value="14:00">14:00</option> {/*selection of times that guests can book*/}
                   <option value="15:00">15:00</option>
                   <option value="16:00">16:00</option>
                   <option value="17:00">17:00</option>

@@ -7,7 +7,7 @@ import burger from '../../images/more.png';
 import Stilltomake from '../StillToMake/Stilltomake';
 
 
-const Header = () => {
+const Header = () => { //Header displayed on the top of every page. Allows for easy navigation and also smoothscroll to certain parts of screen
   const [isOpen,setIsOpen] = useState(false);
 
   const toggleMenu = () => {

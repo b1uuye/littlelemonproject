@@ -1,4 +1,4 @@
-export default function Validation(){
+export default function Validation(){ //validation code that was used originally to validate inputs are of correct type and form
     const errors = {}
 
     const email_pattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/

@@ -72,7 +72,8 @@
 }
 
 @media only screen and (max-width: 600px){
-
+    /*responsive view to align all the elements with mobile view*/
+    
     .reviews_container{
         padding-bottom: 1200px;
     }

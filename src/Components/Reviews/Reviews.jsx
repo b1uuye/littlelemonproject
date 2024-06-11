@@ -5,7 +5,7 @@ import man2 from '../../images/man2.jpg';
 import woman1 from '../../images/woman1.jpg';
 import woman2 from '../../images/woman2.png';
 
-const Reviews = () => {
+const Reviews = () => { //Testemonials section with fake reviews of the restaurant
   return (
     <div className="reviews_container" id='reviews'>
         <h1>Reviews/Testemonials</h1>

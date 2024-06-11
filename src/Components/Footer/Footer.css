@@ -53,7 +53,7 @@
     margin-right: -100px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){ /*responsive view details for mobile view*/
 
     .footer_right{
         display: none;

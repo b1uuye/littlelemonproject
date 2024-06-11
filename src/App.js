@@ -10,10 +10,9 @@ import { useReducer } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function App() {
-
-
+//adding all parts of the page together
   return (
-    <div className='App'>
+    <div className='App'> 
       <Header />
       <Hero/>
       <Specials/>

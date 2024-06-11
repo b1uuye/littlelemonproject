@@ -3,7 +3,7 @@ import BookingForm from "../components/BookingForm"
 import { fetchAPI, submitAPI } from "../api"
 import { useNavigate } from "react-router-dom";
  
-export default function BookingPage() {
+export default function BookingPage() { //original booking confirmtion page that would have been used with different states and API calls
     
   const [date, setDate] = useState(new Date())
  
